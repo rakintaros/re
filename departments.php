@@ -1,7 +1,7 @@
 <?php
 require_once 'config/database.php'; //connect to database
 checkLogin();
-checkRole(['admin']);
+checkRole(['admin']); //check admin role status
 
 $conn = connectDB();
 
